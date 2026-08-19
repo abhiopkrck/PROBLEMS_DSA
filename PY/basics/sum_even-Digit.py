@@ -1,5 +1,3 @@
-from PY.adddigit import digit
-
 n=int(input("Enter number:"))
 sum=0
 odd_sum=0

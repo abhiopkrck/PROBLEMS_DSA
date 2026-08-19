@@ -4,7 +4,8 @@ repeated_store=set()
 repeated=[]
 for num in numbers:
     if num in repeated_store:
-        repeated.append(num)
+        if num not in repeated:
+            repeated.append(num)
     else:
         repeated_store.add(num)
 
