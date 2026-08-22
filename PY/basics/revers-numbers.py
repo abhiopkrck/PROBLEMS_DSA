@@ -12,6 +12,6 @@ while n!=0:
 if reverse==orignal:  
     print("same")
     print(reverse)
-else:
+else:   
     print("not same")
     print(reverse)
